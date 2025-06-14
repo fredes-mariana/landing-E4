@@ -1,0 +1,38 @@
+@media (max-widht: 1000px) {
+    .nav {
+
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .hero-foto {
+        display: flex;
+        gap: 5px;
+        width: 50%;
+    }
+    .hero-texto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+    }
+    .hero-texto h2 {
+        font-size: medium;
+        width: 70%;
+    }
+    .hero-texto p {
+        font-size: large;
+        max-width: 50%;
+        color: brown;
+    }
+}
