@@ -1,7 +1,4 @@
-@media (max-widht: 1000px) {
-    .nav {
-
-    }
+@media screen and (max-width: 800px) {
     main {
         display: flex;
         flex-direction: column;
@@ -11,7 +8,7 @@
     }
     #hero {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         gap: 10px;
     }
@@ -23,16 +20,156 @@
     .hero-texto {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         text-align: center;
         width: 50%;
     }
     .hero-texto h2 {
-        font-size: medium;
-        width: 70%;
+        font-size: x-large;
+        width: 100%;
+        text-align: left;
     }
     .hero-texto p {
         font-size: large;
-        max-width: 50%;
-        color: brown;
+        max-width: 100%;
+        text-align: left;
     }
+    .hero-button {
+        display: flex;
+        justify-content: left;
+    }
+    .hero-button a {
+    background-color: antiquewhite;
+    width: 120px;
+    padding: 10px 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #004078e1;
+    text-decoration: none;
+    margin: 15px;
+    }
+    .about-us {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav {
+    display: flex;
+    position: relative;
+    width: 100%;
+    }
+    .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    }
+    .nav ul li a {
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    gap: 10px;
+    }
+    .nav .logo {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    }
+    .nav .logo h1 {
+    font-weight: lighter;
+    font-size: large;
+    }
+    .hero-foto img {
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    }
+    .hero-button {
+    display: flex;
+    justify-content: left;
+    }
+    .hero-button a {
+    width: 80px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+    }
+    .hero-texto p {
+        font-size: large;
+        max-width: 100%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 460px) {
+    .nav {
+    display: flex;
+    position: relative;
+    width: 100%;
+    }
+    .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    }
+    .nav ul li a {
+    display: flex;
+    border: 0.5px solid white;
+    background-color: white;
+    padding: 3px;
+    margin: 5px;
+    gap: 5px;
+    }
+    .nav .logo {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    }
+    .nav .logo h1 {
+    font-weight: lighter;
+    font-size: large;
+    }
+    .hero-foto img {
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    }
+    .hero-button {
+    display: flex;
+    justify-content: left;
+    }
+    .hero-button a {
+    width: 80px;
+    color: black;
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+    }
+    .hero-texto p {
+    font-size: large;
+    max-width: 100%;
+    text-align: left;
+    }
+    .about-us {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    width: 80%;
+    }
+   .about-us p {
+   color: black;
+   font-size: 15px;
+   width: 80%;
+   } 
 }
