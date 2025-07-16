@@ -1,0 +1,89 @@
+body {
+    background-color: #004078e1;
+    font-family: 'Shadows Into Light';
+    overflow-x: hidden;
+}
+.formulario-login {
+  max-width: 400px;
+  margin: 120px auto 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.formulario-login h2 {
+    font-size: x-large;
+    font-weight: 600;
+}
+.formulario-login form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.formulario-login input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.formulario-login button {
+  background-color: #004078e1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.formulario-login button:hover {
+    background-color: aquamarine;
+    transition: all 0.3s;
+    color: black;
+}
+.formulario-login p {
+    font-size: larger;
+    font-weight: 500;
+}
+.formulario-login a {
+  color: white;
+  text-decoration: underline;
+}
+.formulario-login a:hover {
+    color: aquamarine;
+    transition: all 0.3s;
+}
+#registro-html form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 15px;
+    gap: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 400px;
+}
+#registro-html h2 {
+    font-size: x-large;
+    font-weight: 600;
+}
+#registro-html input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+#registro-html button {
+  background-color: #004078e1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#registro-html button:hover {
+    background-color: black;
+    color: aquamarine;
+    transition: all 0.3s;
+}
